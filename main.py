@@ -5,7 +5,8 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 logging.basicConfig(level=logging.INFO)
 
-BOT_TOKEN = "PASTE_YOUR_TOKEN_HERE"
+BOT_TOKEN = "7698199405:AAG222XOobLWU4S1b5beMwQDmQW6ATpIguo"
+
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Bot opérationnel ! Tape /help pour voir les commandes.")
